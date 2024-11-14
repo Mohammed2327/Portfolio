@@ -34,7 +34,7 @@ const Home = () => {
         data-aos= "fade-up-right"
     data-aos-duration="1000"
         >
-          <h1 ref={typedRef}>/</h1>
+          <h1 ref={typedRef}> </h1>
           <a
             href={Resume}
             download="MOHAMMED-MUJEEBUDDIN.pdf"
@@ -49,7 +49,7 @@ const Home = () => {
           data-aos-duration="1000">
             
             <LazyLoad height={-70} offset={100}>
-            <img src={`/assets/${profile.imgSrc}`} 
+            <img src={`${process.env.PUBLIC_URL}/assets/${profile.imgSrc}`}
             alt="Profile" />
             </LazyLoad>
 

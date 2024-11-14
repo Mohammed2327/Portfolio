@@ -1,0 +1,47 @@
+[
+  {
+    "id":1,
+    "role": "Frontend Developer",
+    "organisation": "Wipro Limited",
+    "startDate": "May 2022",
+    "endDate": "March 2024",
+    "location": "Hyderabad, Inida",
+    "experiences": [
+
+    ],
+    "responsibilities": [
+        {
+          "description": "Designed and developed reusable UI components using ReactJS and modern front-end development best practices."
+        },
+        {
+          "description": "Architected an advanced Redux implementation that streamlined application data flow, improving code maintainability.The new system is now used by 15 developers and has enhanced deployment efficiency by 25%."
+        },
+        {
+          "description": "Integrated APIs for seamless data exchange, enabling the creation of dynamic and interactive user interfaces."
+        },
+        {
+          "description": "Collaborated with cross-functional teams to deliver high-quality products on time, demonstrating strong communication and problem-solving skills."
+        },
+        {
+          "description": "Maintained a strong understanding of modern front-end development trends and technologies, including responsive design and accessibility. Worked with popular libraries and tools such as React Router, Webpack, and Babel to optimize application performance and development workflow."
+        },
+        {
+          "description": "Developed and maintained modular, reusable, and scalable code bases using ReactJS, ensuring easy maintenance and updates. Utilized React Hooks to manage state and side effects in functional components, improving code readability and maintainability."
+        }
+      ],
+    "imgSrc": "company/Wipro logo.png"
+  },
+
+  {
+    "id":2,
+    "role": "Selling Partner Support",
+    "organisation": "Amazon Development Centre",
+    "startDate": "March 2024",
+    "endDate": "July 2024",
+    "location": "Hyderabad, Inida",
+    "experiences": [
+    
+    ],
+    "imgSrc": "company/Amazon.png"
+  }
+]

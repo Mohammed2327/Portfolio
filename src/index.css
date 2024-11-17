@@ -116,6 +116,25 @@ transition: 0.5s;
  width: 900px;
 }
 
+.exp-items ul{
+  list-style-type: disc;
+  padding-left: 40px;
+  text-align: left;
+}
+
+.exp-items li{
+  margin: 5px 0;
+}
+
+.job-details{
+  margin-bottom: 30px;
+}
+.roles-responsibilities{
+  color: gold;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
 .logo{
   width: 150px;
   height: 150px;
@@ -153,11 +172,11 @@ transition: 0.5s;
 }
 
 .skills .items .item {
-  width: calc(33.33%);
+  width: calc(33.33% - 40px);
   background-color: black;
   margin: 20px;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
   border: 1px solid azure;
   box-shadow: var(--box-shadow);
@@ -166,6 +185,78 @@ transition: 0.5s;
 .skills .items .item img {
   width: 70px;
 }
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Project session */
+
+.projects ul {
+  list-style-type: disc; /* Bullet points */
+  padding-left: 20px; /* Indentation */
+  text-align: left; /* Align text to the left */
+  color: white; /* Text color */
+}
+
+.projects li {
+  margin: 5px 0; /* Spacing between list items */
+}
+
+.card-title{
+  margin-bottom: 20px;
+  color: yellow;
+}
+
+.title{
+  margin-left: 220px;
+}
+
+/* Certificates session*/
+
+.certificates {
+  width: 100%; 
+  max-width: 900px; 
+  margin: auto; 
+  padding: 20px;
+  background-color: rgb(11, 26, 51); 
+  cursor: pointer;
+}
+
+.certificate-item {
+  border-radius: 10px; 
+  padding: 30px; 
+  transition: transform 0.3s; 
+  animation: fade-in 0.5s;
+  box-shadow: var(--box-shadow);
+}
+
+.certificate-item:hover {
+  transform: scale(1.05);
+}
+
+.certificate-item ul {
+
+  padding-left: 40px; 
+  text-align: left; 
+  display: inline-block; 
+}
+
+.certificate-item li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: gold;
+}
+
+
+
 
 /* Contact Section */
 .contact-icon{
@@ -222,12 +313,13 @@ transition: 0.5s;
 /* Mobile screen with max screen of 600px */
 
 @media only screen and (max-width: 600px) {
+  
   .nav-bar {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     width: 100%;
-    padding: 0;
+    padding: 10px;
     margin: 0;
     
   }
@@ -250,9 +342,33 @@ transition: 0.5s;
   }
   .exp {
     width: 90%;
+    margin: auto;
   }
+
+  .exp-items {
+    flex-direction: column; 
+    width: 100%; 
+    padding: 20px; 
+    margin: 10px 0; 
+  }
+
+  .exp-items ul {
+    padding-left: 20px;
+  }
+
+  .exp-items li {
+    margin: 5px 0; 
+  }
+
+  .logo {
+    width: 100px; 
+    height: 100px; 
+    margin-top: 20px; 
+  }
+
+  
   .skills {
-    width: 100%;
+    width: 150%;
   }
   .skills-icons i {
     width: 33.33%; 
@@ -275,4 +391,11 @@ transition: 0.5s;
     display: block;
   }
 
+  /* Project session */
+
+.title{
+  text-align: left;
+  margin-left: 20px;
+}
+  
 }

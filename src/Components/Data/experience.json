@@ -1,14 +1,13 @@
 [
   {
     "id":1,
-    "role": "Frontend Developer",
+    "role": "FrontEnd Developer",
     "organisation": "Wipro Limited",
     "startDate": "May 2022",
     "endDate": "March 2024",
     "location": "Hyderabad, Inida",
-    "experiences": [
-
-    ],
+    "imgSrc": "company/Wipro logo.png",
+    "client": "Cascade- Apple Inc",
     "responsibilities": [
         {
           "description": "Designed and developed reusable UI components using ReactJS and modern front-end development best practices."
@@ -28,20 +27,36 @@
         {
           "description": "Developed and maintained modular, reusable, and scalable code bases using ReactJS, ensuring easy maintenance and updates. Utilized React Hooks to manage state and side effects in functional components, improving code readability and maintainability."
         }
-      ],
-    "imgSrc": "company/Wipro logo.png"
+      ]
   },
 
   {
     "id":2,
-    "role": "Selling Partner Support",
+    "role": "Selling Partner Associate",
     "organisation": "Amazon Development Centre",
     "startDate": "March 2024",
     "endDate": "July 2024",
-    "location": "Hyderabad, Inida",
-    "experiences": [
-    
-    ],
-    "imgSrc": "company/Amazon.png"
+    "location": "Remote, India",
+    "imgSrc": "company/Amazon.png",
+    "responsibilities":[
+      {
+        "description": "Diagnosed and resolved technical, operational, system, and process issues via phone and email, utilizing problem-solving skills and Amazon's policies to ensure fair and satisfactory outcomes."
+      },
+      {
+        "description": "Served as the primary interface between Amazon and Premium Sellers, providing world-class support and technical assistance to resolve issues and improve their overall experience."
+      },
+      {
+        "description": "Educated Premium Sellers on processes, tools, and standards in real-time, ensuring they had the knowledge and resources needed to successfully sell on Amazon's global eCommerce platforms."
+      },
+      {
+        "description": "Utilized a wide variety of software tools to navigate Seller accounts, research and review policies, and communicate effective solutions, demonstrating proficiency in multiple platforms and specialties."
+      },
+      {
+        "description": "Identified and proposed solutions to remove barriers and enable resolutions for Sellers, driving excellence in both Associate and Seller experience."
+      },
+      {
+        "description": "Demonstrated a commitment to customer focus and process improvement, continually seeking opportunities to improve the support experience and contribute to Amazon's vision of approachable excellence."
+      }
+    ]
   }
 ]

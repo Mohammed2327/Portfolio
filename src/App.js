@@ -6,7 +6,8 @@ import Skills from "./Components/Skills";
 import Contact from "./Components/Contact";
 import Aos from "aos";
 import "aos/dist/aos.css";
-// import Projects from "./Components/Projects";
+import Certificates from "./Components/Certificates";
+import Projects from "./Components/Projects";
 
 const App= () => {
   useEffect(() => {
@@ -19,7 +20,8 @@ const App= () => {
       <Home />
       <Experience />
       <Skills />
-      {/* <Projects /> */}
+      <Projects />
+      <Certificates />
       <Contact />
     </div>
   );

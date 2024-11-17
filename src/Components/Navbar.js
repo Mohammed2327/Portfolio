@@ -1,6 +1,6 @@
 import React from "react";
-import "../index.css";
 import { FaArrowCircleUp } from "react-icons/fa";
+import "../index.css";
 
 const Navbar = () => {
   const scrollToTop = () => {
@@ -14,7 +14,7 @@ const Navbar = () => {
         data-aos-duration="1000"
       >
         <div className="left nav-items"> </div>
-        <div className="right">
+        <div className="right">        
           <a href="#home" className="nav-items">
             Home
           </a>
@@ -24,8 +24,11 @@ const Navbar = () => {
           <a href="#skills" className="nav-items">
             Skills
           </a>
-          <a href="#" className="nav-items">
-            Project
+          <a href="#project" className="nav-items">
+            Projects
+          </a>
+          <a href="#certificates" className="nav-items">
+            Certificates
           </a>
           <a href="#contact" className="nav-items">
             Contact

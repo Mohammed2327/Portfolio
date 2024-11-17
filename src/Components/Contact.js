@@ -15,6 +15,27 @@ const Contact = () => {
         data-aos= "zoom-in-up"
         data-aos-duration="1000"
         >
+           <a href="mailto:mohammedmujju327@gmail.com" className="items">
+            <MdEmail className="icons" />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/mohammed-mujeebuddin-6475b621b/"
+            className="items"
+          >
+            <FaLinkedin className="icons" />
+          </a>
+          <a href="https://github.com/Mohammed2327" className="items">
+            <FaGithub className="icons" />
+          </a>
+
+          <a
+            href="https://www.instagram.com/bad_boy_mujju?igsh=dGU3NjJsaDloMHp3"
+            className="items"
+          >
+            <FaInstagram className="icons" />
+          </a>
+
           <a
             href="https://www.facebook.com/mujju.mohammedmujeeb"
             className="items"
@@ -26,25 +47,7 @@ const Contact = () => {
             className="items"
           >
             <FaXTwitter className="icons" />
-          </a>
-          <a
-            href="https://www.instagram.com/bad_boy_mujju?igsh=dGU3NjJsaDloMHp3"
-            className="items"
-          >
-            <FaInstagram className="icons" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/mohammed-mujeebuddin-6475b621b/"
-            className="items"
-          >
-            <FaLinkedin className="icons" />
-          </a>
-          <a href="https://github.com/Mohammed2327" className="items">
-            <FaGithub className="icons" />
-          </a>
-          <a href="mailto:mohammedmujju327@gmail.com" className="items">
-            <MdEmail className="icons" />
-          </a>
+          </a>       
         </div>
       </div>
     </>

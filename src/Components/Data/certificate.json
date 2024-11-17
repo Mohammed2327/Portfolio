@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "company": "HackerRank",
+        "Certificate" :[
+            {   "id": 101,
+                "name": "Frontend Developer (React JS)"
+            },
+            {
+                "id": 102,
+                "name": "SQL (ADVANCED)"
+            }
+        ]
+    },
+
+    {
+        "id": 2,
+        "company": "AWS",
+        "Certificate" :[
+            {
+                "id":201,
+                "name": "AWS Cloud Practitioner"
+            },
+            {
+                "id":202,
+                "name": "AWS Certified Developer - Associate"
+            }
+        ]
+    },
+
+    {
+        "id": 3,
+        "company": "Google",
+        "Certificate" :[
+            {
+                "id":301,
+                "name": "Google Cloud Certified Associate Cloud Engineer"
+            }
+        ]
+    },
+
+    {
+        "id": 4,
+        "company": "Microsoft",
+        "Certificate" :[
+            {
+                "id":401,
+                "name": " Microsoft Certified Azure Fundamentals"
+            }
+        ]
+    }
+]

@@ -1,31 +1,61 @@
 [
   {
     "id": 1,
-    "experience": {
-    "client": "Apple Inc",
-    "duration": "May 2022 - March 2024",
-    "position": "Frontend Developer",
-    "company": "Wipro Limited",
+    "role": "FrontEnd Developer",
+    "organisation": "Personal Project",
+    "client": "E-commerce Website",
+    "location": "Remote",
     "responsibilities": [
-        {
-          "description": "Designed and developed reusable UI components using ReactJS and modern front-end development best practices."
-        },
-        {
-          "description": "Architected an advanced Redux implementation that streamlined application data flow, improving code maintainability.The new system is now used by 15 developers and has enhanced deployment efficiency by 25%."
-        },
-        {
-          "description": "Integrated APIs for seamless data exchange, enabling the creation of dynamic and interactive user interfaces."
-        },
-        {
-          "description": "Collaborated with cross-functional teams to deliver high-quality products on time, demonstrating strong communication and problem-solving skills."
-        },
-        {
-          "description": "Maintained a strong understanding of modern front-end development trends and technologies, including responsive design and accessibility. Worked with popular libraries and tools such as React Router, Webpack, and Babel to optimize application performance and development workflow."
-        },
-        {
-          "description": "Developed and maintained modular, reusable, and scalable codebases using ReactJS, ensuring easy maintenance and updates. Utilized React Hooks to manage state and side effects in functional components, improving code readability and maintainability."
-        }
-      ]
-    }
+      {
+        "description": "Developed a responsive e-commerce website using React and CSS, enhancing user experience and increasing customer engagement."
+      },
+      {
+        "description": "Implemented state management using React Hooks for managing user cart and payment options, ensuring a seamless shopping experience."
+      },
+      {
+        "description": "Designed and integrated a secure payment options page with multiple payment methods, improving user choice and flexibility."
+      },
+      {
+        "description": "Created a responsive navigation bar with React Router for intuitive user navigation across product categories."
+      },
+      {
+        "description": "Established comprehensive error handling and user feedback mechanisms to enhance user experience during form submissions and payment processes."
+      }
+    ],
+
+     "websiteLink": "https://mohammed2327.github.io/E-Commerce/",
+    "sourceCodeLink": "https://github.com/Mohammed2327/E-Commerce"
+  },
+
+
+
+  {
+    "id": 2,
+    "role": "FrontEnd Developer",
+    "organisation": "Personal Project",
+    "client": "Portfolio Website",
+    "location": "Remote",
+    "responsibilities": [
+      {
+        "description": "Developed and maintained responsive and visually appealing websites using HTML, CSS, and JavaScript, ensuring cross-browser compatibility and adherence to web standards."
+      },
+      {
+        "description": "Implemented CSS frameworks such as Bootstrap to enhance the design and responsiveness of web applications."
+      },
+      {
+        "description": "Created interactive web applications by implementing JavaScript functionalities, including form validation, dynamic content loading, and event handling to improve user engagement."
+      },
+      {
+        "description": "Optimized web pages for speed and performance by minimizing HTTP requests, compressing images, and utilizing caching techniques, resulting in faster load times and improved user experience."
+      },
+      {
+        "description": "Utilized Git for version control to manage code changes and collaborate effectively with other developers, ensuring a smooth workflow and code integrity."
+      }
+    ],
+
+     "websiteLink": "https://mohammed2327.github.io/My-Portfolio/",
+    "sourceCodeLink": "https://github.com/Mohammed2327/My-Portfolio"
   }
+
+
 ]

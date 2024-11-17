@@ -19,7 +19,7 @@ const Skills = () => {
               >
                 
                 <LazyLoad height={100} offset={100}>
-                <img src={`/assets/${skill.imageSrc}`}
+                <img src={`${process.env.PUBLIC_URL}/assets/${skill.imageSrc}`}
                  alt="Skills" />
                  </LazyLoad>
                 <h3>{skill.title}</h3>

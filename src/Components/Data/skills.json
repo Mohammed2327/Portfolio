@@ -1,12 +1,12 @@
 [
     {
       "id": 1,
-      "title": "HTML",
+      "title": "HTML5",
       "imageSrc": "skills/html.png"
     },
     {
       "id": 2,
-      "title": "CSS",
+      "title": "CSS3",
       "imageSrc": "skills/css.png"
     },
     {
@@ -26,8 +26,8 @@
     },
     {
       "id": 6,
-      "title": "MongoDB",
-      "imageSrc": "skills/mongodb.png"
+        "title": "Redux",
+      "imageSrc": "skills/redux.png"
     },
 
     {
@@ -38,8 +38,38 @@
 
     {
       "id": 8,
-      "title": "Github",
+           "title": "MongoDB",
+      "imageSrc": "skills/mongodb.png"
+    },
+    {
+      "id": 9,
+      "title": "Python Selenium",
+      "imageSrc": "skills/python.png"
+    },
+    {
+      "id": 10,
+       "title": "Github",
       "imageSrc": "skills/Github.png"
+    },
+    {
+      "id": 11,
+       "title": "Ansible",
+      "imageSrc": "skills/ansible.png"
+    },
+    {
+      "id": 12,
+       "title": "CI/CD",
+      "imageSrc": "skills/cicd.png"
+    },
+    {
+      "id": 13,
+       "title": "Jenkins",
+      "imageSrc": "skills/jenkins.png"
+    },
+    {
+      "id": 14,
+       "title": "Terraform",
+      "imageSrc": "skills/terraform.png"
     }
    
   ]

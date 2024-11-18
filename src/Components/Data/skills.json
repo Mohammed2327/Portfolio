@@ -55,12 +55,12 @@
     {
       "id": 11,
        "title": "AWS",
-      "imageSrc": "skills/terraform.png"
+      "imageSrc": "skills/Aws.png"
     },
     {
       "id": 12,
        "title": "Ansible",
-      "imageSrc": "skills/Aws.png"
+      "imageSrc": "skills/ansible.png"
     },
     {
       "id": 13,

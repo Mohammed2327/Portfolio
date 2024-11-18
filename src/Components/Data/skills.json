@@ -51,23 +51,29 @@
        "title": "Github",
       "imageSrc": "skills/Github.png"
     },
+
     {
       "id": 11,
-       "title": "Ansible",
-      "imageSrc": "skills/ansible.png"
+       "title": "AWS",
+      "imageSrc": "skills/terraform.png"
     },
     {
       "id": 12,
+       "title": "Ansible",
+      "imageSrc": "skills/Aws.png"
+    },
+    {
+      "id": 13,
        "title": "CI/CD",
       "imageSrc": "skills/cicd.png"
     },
     {
-      "id": 13,
+      "id": 14,
        "title": "Jenkins",
       "imageSrc": "skills/jenkins.png"
     },
     {
-      "id": 14,
+      "id": 15,
        "title": "Terraform",
       "imageSrc": "skills/terraform.png"
     }

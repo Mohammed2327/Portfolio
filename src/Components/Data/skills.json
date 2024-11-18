@@ -12,7 +12,7 @@
     {
       "id": 3,
         "title": "Java",
-        "imageSrc": "skills/java.jpg"
+        "imageSrc": "skills/Java.jpg"
     },
     {
       "id": 4,
@@ -70,7 +70,7 @@
     {
       "id": 14,
        "title": "Jenkins",
-      "imageSrc": "skills/jenkins.png"
+      "imageSrc": "skills/Jenkins.png"
     },
     {
       "id": 15,

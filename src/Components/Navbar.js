@@ -13,7 +13,6 @@ const Navbar = () => {
         data-aos="fade-right"
         data-aos-duration="1000"
       >
-        <div className="left nav-items"> </div>
         <div className="right">        
           <a href="#home" className="nav-items">
             Home
@@ -28,10 +27,10 @@ const Navbar = () => {
             Projects
           </a>
           <a href="#certificates" className="nav-items">
-            Certificates
+            Certifications
           </a>
           <a href="#contact" className="nav-items">
-            Contact
+            Contact Me
           </a>
         </div>
       </div>

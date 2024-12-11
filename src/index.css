@@ -1,45 +1,43 @@
-:root{
-  --box-shadow:5px 5px 10px 10px rgba(101,175,10,0.5);
+:root {
+  --box-shadow: 5px 5px 10px 10px rgba(101, 175, 10, 0.5);
   --bg-color: rbg(117, 123, 166);
 }
 
-body{
-  background-color: rgb(11,26,51);
+body {
+  background-color: rgb(11, 26, 51);
   color: white;
 }
 
-a{
+a {
   text-decoration: none;
   color: white;
 }
 
-/* Nav-Bar section */
-
-.nav-bar{
+.nav-bar {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   margin-top: 15px;
 }
 
-.nav-bar .nav-items{
-  padding: 5px 20px ;
+.nav-bar .nav-items {
+  padding: 5px 20px;
   font-size: 1.2rem;
   position: relative;
   cursor: pointer;
 }
 
-.nav-bar .nav-items::after{
-content: '';
-width: 0%;
-height: 3px;
-background: skyblue;
-position: absolute;
-left: 0;
-bottom: -4px;
--webkit-transition: 0.5s;
--o-transition: 0.5s;
-transition: 0.5s;
+.nav-bar .nav-items::after {
+  content: '';
+  width: 0%;
+  height: 3px;
+  background: goldenrod;
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .nav-bar .nav-items:hover::after {
@@ -47,16 +45,14 @@ transition: 0.5s;
   border-radius: 20px;
 }
 
-/* Home Section*/
-
-.home{
+.home {
   height: 80vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.home .left{
+.home .left {
   background-color: rgb(117, 123, 166);
   width: 620px;
   text-align: center;
@@ -66,14 +62,13 @@ transition: 0.5s;
   box-shadow: var(--box-shadow);
 }
 
-.home .right .img{
+.home .right .img {
   display: flex;
   justify-content: start;
   align-items: start;
-
 }
 
-.home .right .img img{
+.home .right .img img {
   height: 300px;
   width: 300px;
   border-radius: 100%;
@@ -84,58 +79,56 @@ transition: 0.5s;
 }
 
 @keyframes animation {
-  0%{
+  0% {
     border-color: blanchedalmond;
-    transform: translate(0,0px);
+    transform: translate(0, 0px);
     box-shadow: 10px 10px 100px 50px blanchedalmond;
   }
-  25%{
+  25% {
     border-color: rgb(154, 156, 9);
     box-shadow: 10px 10px 100px 50px rgb(154, 156, 9);
   }
-  50%{
+  50% {
     border-color: rgb(103, 111, 21);
-    transform: translate(0,10px);
+    transform: translate(0, 10px);
     box-shadow: 10px 10px 100px 50px rgb(103, 111, 21);
   }
-  75%{
-    border-color: rgb(130,217,160);
-    box-shadow: 10px 10px 100px 50px rgb(130,217,160);
+  75% {
+    border-color: rgb(130, 217, 160);
+    box-shadow: 10px 10px 100px 50px rgb(130, 217, 160);
   }
-  100%{
+  100% {
     border-color: rgb(30, 31, 59);
     transform: translate(0, 0px);
     box-shadow: 10px 10px 100px 50px rgb(30, 31, 59);
   }
 }
 
-
-/* Experience Section */
-
-.exp{
- width: 900px;
+.exp {
+  width: 900px;
 }
 
-.exp-items ul{
+.exp-items ul {
   list-style-type: disc;
   padding-left: 40px;
   text-align: left;
 }
 
-.exp-items li{
+.exp-items li {
   margin: 5px 0;
 }
 
-.job-details{
+.job-details {
   margin-bottom: 30px;
 }
-.roles-responsibilities{
+
+.roles-responsibilities {
   color: gold;
   margin-top: 50px;
   cursor: pointer;
 }
 
-.logo{
+.logo {
   width: 150px;
   height: 150px;
   object-fit: contain;
@@ -143,7 +136,7 @@ transition: 0.5s;
   border-radius: 10px;
 }
 
-.exp-items{
+.exp-items {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -155,9 +148,6 @@ transition: 0.5s;
   border-radius: 10px;
   box-shadow: var(--box-shadow);
 }
-
-
-/* Skills Section */
 
 .skills {
   width: 900px;
@@ -197,43 +187,39 @@ transition: 0.5s;
   }
 }
 
-/* Project session */
-
 .projects ul {
-  list-style-type: disc; /* Bullet points */
-  padding-left: 20px; /* Indentation */
-  text-align: left; /* Align text to the left */
-  color: white; /* Text color */
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+  color: white;
 }
 
 .projects li {
-  margin: 5px 0; /* Spacing between list items */
+  margin: 5px 0;
 }
 
-.card-title{
+.card-title {
   margin-bottom: 20px;
   color: yellow;
 }
 
-.title{
+.title {
   margin-left: 220px;
 }
 
-/* Certificates session*/
-
 .certificates {
-  width: 100%; 
-  max-width: 900px; 
-  margin: auto; 
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
   padding: 20px;
-  background-color: rgb(11, 26, 51); 
+  background-color: rgb(11, 26, 51);
   cursor: pointer;
 }
 
 .certificate-item {
-  border-radius: 10px; 
-  padding: 30px; 
-  transition: transform 0.3s; 
+  border-radius: 10px;
+  padding: 30px;
+  transition: transform 0.3s;
   animation: fade-in 0.5s;
   box-shadow: var(--box-shadow);
 }
@@ -243,10 +229,9 @@ transition: 0.5s;
 }
 
 .certificate-item ul {
-
-  padding-left: 40px; 
-  text-align: left; 
-  display: inline-block; 
+  padding-left: 40px;
+  text-align: left;
+  display: inline-block;
 }
 
 .certificate-item li {
@@ -255,11 +240,7 @@ transition: 0.5s;
   color: gold;
 }
 
-
-
-
-/* Contact Section */
-.contact-icon{
+.contact-icon {
   height: 30vh;
   display: flex;
   justify-content: center;
@@ -271,7 +252,7 @@ transition: 0.5s;
   transition: transform 0.5s, -webkit-transform 0.5s;
 }
 
-.contact-icon .items{
+.contact-icon .items {
   background-color: black;
   margin: 10px;
   height: 70px;
@@ -283,60 +264,70 @@ transition: 0.5s;
   border: 2px solid azure;
 }
 
-.contact-icon .items:hover{
+.contact-icon .items:hover {
   background-color: var(--bg-color);
   box-shadow: var(--box-shadow);
   -webkit-transform: translateY(-5px);
-    -ms-transform: translateY(-5px);
-    transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
-.contact-icon .items .icons{
+.contact-icon .items .icons {
   font-size: 2rem;
 }
 
-.contact h1 { 
-  text-align: start; 
+.contact h1 {
+  text-align: start;
   margin: 20px 0 -20px 200px;
 }
 
-
 .top-arrow {
   cursor: pointer;
-  position: fixed; 
+  position: fixed;
   bottom: 40px;
   right: 40px;
-  background-color: rgba(0, 0, 0, 0.7); 
-  padding: 15px; 
-  border-radius: 50%; 
-  box-shadow: var(--box-shadow); 
-  transition: background-color 0.3s; 
-  z-index: 1000; 
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  border-radius: 50%;
+  box-shadow: var(--box-shadow);
+  transition: background-color 0.3s;
+  z-index: 1000;
 }
 
 .top-arrow:hover {
-  background-color: rgba(0, 0, 0, 0.9); 
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
-/* Mobile screen with max screen of 600px */
-
 @media only screen and (max-width: 600px) {
-
-  body{
+  body {
     overflow-y: auto;
     overflow-x: hidden;
     box-sizing: border-box;
   }
-  
-   .nav-bar {
+
+  .nav-bar {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
     flex-direction: column;
     width: 100%;
     padding: 10px;
     margin: 0;
   }
- 
+
+  .nav-bar .nav-items{
+    flex: 1 0 30%;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+  }
+
+  .home {
+    height: auto;
+    margin: 90px 0 50px 0;
+  }
+
   .nav-bar a {
     flex: 1;
     text-align: center;
@@ -344,27 +335,26 @@ transition: 0.5s;
     white-space: nowrap;
     min-width: 100px;
   }
-  
 
   .home .left {
     width: 100%;
   }
-  
+
   .home .right .img img {
     height: 150px;
     width: 150px;
   }
-  
+
   .exp {
     width: 100%;
     margin: auto;
   }
 
   .exp-items {
-    flex-direction: column; 
-    width: 100%; 
-    padding: 20px; 
-    margin: 10px 0; 
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
   }
 
   .exp-items ul {
@@ -372,38 +362,41 @@ transition: 0.5s;
   }
 
   .exp-items li {
-    margin: 5px 0; 
+    margin: 5px 0;
   }
 
   .logo {
-    width: 100px; 
-    height: 100px; 
+    width: 100px;
+    height: 100px;
   }
 
   .skills {
     width: 100%;
     max-width: 900px;
-   margin: auto;
-  } 
-  .skills-icons i {
-    width: 50%;
+    margin: auto;
+  }
 
-  } 
+ .skills-icons i {
+    width: 50%;
+  }
 
   .skills .items .item {
     width: calc(50% - 40px);
   }
 
   .contact-me-icons i {
-    font-size: 2.5rem; 
+    font-size: 2.5rem;
   }
+
   .contact-icon {
     height: 20vh;
   }
+
   .contact-icon .items {
     height: 40%;
     width: 40%;
   }
+
   .contact h1 {
     margin: 10px 0 -10px -2px;
   }
@@ -411,11 +404,9 @@ transition: 0.5s;
   .top-arrow {
     display: block;
   }
-  
-  /* Project session */
-  .title{
-  text-align: left;
-  margin-left: 20px;
-} 
-  
+
+  .title {
+    text-align: left;
+    margin-left: 20px;
+  }
 }

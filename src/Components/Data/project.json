@@ -55,6 +55,37 @@
 
      "websiteLink": "https://mohammed2327.github.io/My-Portfolio/",
     "sourceCodeLink": "https://github.com/Mohammed2327/My-Portfolio"
+  },
+
+  {
+    "id": 3,
+    "role": "FrontEnd Developer",
+    "organisation": "Personal Project",
+    "client": "Financial Dashboard",
+    "location": "Remote",
+    "responsibilities": [
+      {
+        "description": "Designed and implemented a responsive user interface for a financial dashboard using React, ensuring a seamless user experience across various devices. This included creating components for profile settings, transaction history, and visual data representations."
+      },
+      {
+        "description": "Utilized React's state management features (useState and useEffect hooks) to manage user data, form inputs, and dynamic content updates, ensuring that the application responds efficiently to user interactions and data changes."
+      },
+      {
+        "description": "Developed robust form validation logic to ensure data integrity during user input, providing real-time feedback on errors (e.g., invalid email formats and password strength) to enhance user experience and prevent submission of incorrect data."
+      },
+      {
+        "description": "Integrated data visualization libraries (e.g., Recharts) to create interactive charts and graphs that display financial statistics, such as balance history and expense breakdowns, enabling users to gain insights into their financial activities at a glance."
+      },
+      {
+        "description": "Implemented functionality for users to upload and update their profile pictures, utilizing the File API to handle image uploads and display them dynamically within the application, enhancing personalization."
+      },
+      {
+        "description": "Established a clear navigation structure using React Router, allowing users to switch between different sections of the dashboard (e.g., settings, transactions, and account details) effortlessly, thereby improving overall usability and accessibility of the application."
+      }
+    ],
+
+     "websiteLink": "https://financial-dashboard3.netlify.app/",
+    "sourceCodeLink": "https://github.com/Mohammed2327/Financial-Dashboard.git"
   }
 
 

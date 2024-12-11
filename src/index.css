@@ -321,35 +321,42 @@ transition: 0.5s;
 /* Mobile screen with max screen of 600px */
 
 @media only screen and (max-width: 600px) {
+
+  body{
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
+  }
   
-  .nav-bar {
+   .nav-bar {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     width: 100%;
     padding: 10px;
     margin: 0;
-    
   }
+ 
   .nav-bar a {
     flex: 1;
     text-align: center;
     padding: 10px;
     white-space: nowrap;
     min-width: 100px;
-    
   }
+  
 
   .home .left {
     width: 100%;
-
   }
+  
   .home .right .img img {
     height: 150px;
     width: 150px;
   }
+  
   .exp {
-    width: 90%;
+    width: 100%;
     margin: auto;
   }
 
@@ -371,16 +378,22 @@ transition: 0.5s;
   .logo {
     width: 100px; 
     height: 100px; 
-    margin-top: 20px; 
   }
 
-  
   .skills {
-    width: 150%;
-  }
+    width: 100%;
+    max-width: 900px;
+   margin: auto;
+  } 
   .skills-icons i {
-    width: 33.33%; 
+    width: 50%;
+
+  } 
+
+  .skills .items .item {
+    width: calc(50% - 40px);
   }
+
   .contact-me-icons i {
     font-size: 2.5rem; 
   }
@@ -398,12 +411,11 @@ transition: 0.5s;
   .top-arrow {
     display: block;
   }
-
+  
   /* Project session */
-
-.title{
+  .title{
   text-align: left;
   margin-left: 20px;
-}
+} 
   
 }

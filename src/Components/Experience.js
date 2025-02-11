@@ -41,7 +41,7 @@ const Experience = () => {
 
                 <h4 className="job-details">
                   <span style={{ color: "yellowgreen" }}>
-                    {data.startDate} {" -"}
+                    {data.startDate} {" - "}
                     {data.endDate}{" "}
                   </span>{" "}
                   <span style={{ color: "yellow" }}> {data.location} </span>

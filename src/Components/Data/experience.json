@@ -58,5 +58,17 @@
         "description": "Demonstrated a commitment to customer focus and process improvement, continually seeking opportunities to improve the support experience and contribute to Amazon's vision of approachable excellence."
       }
     ]
+  },
+  {
+    "id":3,
+    "role": "Software Engineer",
+    "organisation": "Ayat Solutions LLC",
+    "startDate": "February 2025",
+    "endDate": "Present",
+    "location": "Remote, India",
+    "imgSrc": "company/Ayat-solutions.png",
+    "responsibilities":[
+      
+    ]
   }
 ]

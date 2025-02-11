@@ -9,6 +9,7 @@ import "aos/dist/aos.css";
 import Certificates from "./Components/Certificates";
 import Projects from "./Components/Projects";
 
+
 const App= () => {
   useEffect(() => {
     Aos.init();
@@ -18,6 +19,7 @@ const App= () => {
     <div className="App">
       <Navbar />
       <Home />
+      
       <Experience />
       <Skills />
       <Projects />

@@ -35,7 +35,7 @@ const Experience = () => {
               <div className="right">
                 <h2>
                   {" "}
-                  {data.role} {"-"}
+                  {data.role} {"- "}
                   {data.organisation} {data.client}
                 </h2>
 

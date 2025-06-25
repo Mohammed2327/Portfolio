@@ -68,7 +68,24 @@
     "location": "Remote, India",
     "imgSrc": "company/Ayat-solutions.jpg",
     "responsibilities":[
-      
+       {
+        "description": "Diagnosed and resolved technical, operational, system, and process issues via phone and email, utilizing problem-solving skills and Amazon's policies to ensure fair and satisfactory outcomes."
+      },
+      {
+        "description": "Developed a cross-platform mobile app using React Native and Expo, delivering a smooth and consistent user experience across Android."
+      },
+      {
+        "description": "Integrated Stripe Terminal SDK to enable secure in-person payments, managing real-time transaction flows, error handling, and user feedback."
+      },
+      {
+        "description": "Built reusable, scalable UI components in TypeScript, following best practices in modular design and state management."
+      },
+      {
+        "description": "Implemented API-driven session timeout and idle detection logic, Improving security and user control."
+      },
+      {
+        "description": "Optimized app performance by reducing unnecessary re-renders, improving load times, and handling offline scenarios using Async Storage and network detection. "
+      }
     ]
   }
 ]

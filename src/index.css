@@ -28,7 +28,7 @@ a {
 }
 
 .nav-bar .nav-items::after {
-  content: '';
+  content: "";
   width: 0%;
   height: 3px;
   background: goldenrod;
@@ -117,7 +117,6 @@ a {
 .exp-items li {
   margin: 5px 0;
 }
-
 
 .job-details {
   margin-bottom: 30px;
@@ -314,7 +313,7 @@ a {
     margin: 0;
   }
 
-  .nav-bar .nav-items{
+  .nav-bar .nav-items {
     flex: 1 0 30%;
     text-align: center;
     padding: 10px;
@@ -343,7 +342,6 @@ a {
     height: 150px;
     width: 150px;
   }
-  
 
   .exp {
     width: 100%;
@@ -376,7 +374,7 @@ a {
     margin: auto;
   }
 
- .skills-icons i {
+  .skills-icons i {
     width: 50%;
   }
 

@@ -1,82 +1,82 @@
 [
-    {
-      "id": 1,
-      "title": "HTML5",
-      "imageSrc": "skills/html.png"
-    },
-    {
-      "id": 2,
-      "title": "CSS3",
-      "imageSrc": "skills/css.png"
-    },
-    {
-      "id": 3,
-        "title": "Java",
-        "imageSrc": "skills/Java.jpg"
-    },
-    {
-      "id": 4,
-      "title": "JavaScript",
-      "imageSrc": "skills/javascript.png"
-    },
-    {
-      "id": 5,
-      "title": "React JS",
-      "imageSrc": "skills/react.png"
-    },
-
-     {
-      "id": 6,
-      "title": "Type Script",
-      "imageSrc": "skills/Type-script.png"
-    },
-
-    {
-      "id": 7,
-      "title": "MySQL",
-      "imageSrc": "skills/My-sql.png"
-    },
-
-    {
-      "id": 8,
-           "title": "MongoDB",
-      "imageSrc": "skills/mongodb.png"
-    },
-    {
-      "id": 9,
-      "title": "Python",
-      "imageSrc": "skills/python.png"
-    },
-    {
-      "id": 10,
-       "title": "Github",
-      "imageSrc": "skills/Github.png"
-    },
-
-    {
-      "id": 11,
-       "title": "AWS",
-      "imageSrc": "skills/Aws.png"
-    },
-    {
-      "id": 12,
-       "title": "Ansible",
-      "imageSrc": "skills/ansible.png"
-    },
-    {
-      "id": 13,
-       "title": "CI/CD",
-      "imageSrc": "skills/cicd.png"
-    },
-    {
-      "id": 14,
-       "title": "Jenkins",
-      "imageSrc": "skills/Jenkins.png"
-    },
-    {
-      "id": 15,
-       "title": "Terraform",
-      "imageSrc": "skills/terraform.png"
-    }
-   
-  ]
+  {
+    "id": 1,
+    "title": "React JS",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "id": 2,
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.png"
+  },
+  {
+    "id": 3,
+    "title": "React Native",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "id": 4,
+    "title": "Type Script",
+    "imageSrc": "skills/Type-script.png"
+  },
+  {
+    "id": 5,
+    "title": "HTML5",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "id": 6,
+    "title": "CSS3",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "id": 7,
+    "title": "Java",
+    "imageSrc": "skills/Java.jpg"
+  },
+  {
+    "id": 8,
+    "title": "MySQL",
+    "imageSrc": "skills/My-sql.png"
+  },
+  {
+    "id": 9,
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "id": 10,
+    "title": "Python",
+    "imageSrc": "skills/python.png"
+  },
+  {
+    "id": 11,
+    "title": "Github",
+    "imageSrc": "skills/Github.png"
+  },
+  {
+    "id": 12,
+    "title": "AWS",
+    "imageSrc": "skills/Aws.png"
+  },
+  {
+    "id": 13,
+    "title": "Ansible",
+    "imageSrc": "skills/ansible.png"
+  },
+  {
+    "id": 14,
+    "title": "CI/CD",
+    "imageSrc": "skills/cicd.png"
+  },
+  {
+    "id": 15,
+    "title": "Jenkins",
+    "imageSrc": "skills/Jenkins.png"
+  },
+  {
+    "id": 16,
+    "title": "Terraform",
+    "imageSrc": "skills/terraform.png"
+  }
+]

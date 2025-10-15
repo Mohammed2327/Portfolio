@@ -19,7 +19,6 @@ const App= () => {
     <div className="App">
       <Navbar />
       <Home />
-      
       <Experience />
       <Skills />
       <Projects />

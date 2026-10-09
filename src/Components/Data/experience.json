@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "role": "Software Engineer",
+    "role": "Software Engineer II",
     "organisation": "AdroitOne Consulting",
     "startDate": "August 2024",
     "endDate": "Present",
     "location": "Remote, India",
-    "imgSrc": "company/AdroitOne.png",
+    "imgSrc": "company/Ayat-solutions.jpg",
     "responsibilities": [
       {
         "description": "Diagnosed and resolved technical, operational, system, and process issues via phone and email, utilizing problem-solving skills and Amazon's policies to ensure fair and satisfactory outcomes."

@@ -67,7 +67,6 @@
     "endDate": "March 2024",
     "location": "Hyderabad, Inida",
     "imgSrc": "company/Wipro logo.png",
-    "client": "Cascade- Apple Inc",
     "responsibilities": [
       {
         "description": "Designed and developed reusable UI components using ReactJS and modern front-end development best practices."

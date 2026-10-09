@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.7a822210.css",
-    "main.js": "/Portfolio/static/js/main.d6da2886.js",
+    "main.js": "/Portfolio/static/js/main.10076cf8.js",
     "static/js/453.acca0757.chunk.js": "/Portfolio/static/js/453.acca0757.chunk.js",
     "static/media/MOHAMMED MUJEEBUDDIN.pdf": "/Portfolio/static/media/MOHAMMED MUJEEBUDDIN.37a77f97d49b4cf55f96.pdf",
     "index.html": "/Portfolio/index.html",
     "main.7a822210.css.map": "/Portfolio/static/css/main.7a822210.css.map",
-    "main.d6da2886.js.map": "/Portfolio/static/js/main.d6da2886.js.map",
+    "main.10076cf8.js.map": "/Portfolio/static/js/main.10076cf8.js.map",
     "453.acca0757.chunk.js.map": "/Portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a822210.css",
-    "static/js/main.d6da2886.js"
+    "static/js/main.10076cf8.js"
   ]
 }

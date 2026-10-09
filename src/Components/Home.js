@@ -6,11 +6,14 @@ import Typed from "typed.js";
 const Home = () => {
   const typedRef = useRef(null);
 
-  const typedStrings = useMemo(() => [
-    "Welcome to my Portfolio",
-    "I'm Mohammed Mujeebuddin",
-    "A Software Engineer II",
-  ], []);
+  const typedStrings = useMemo(
+    () => [
+      "Welcome to my Portfolio",
+      "I'm Mohammed Mujeebuddin",
+      "A Software Engineer II",
+    ],
+    [],
+  );
 
   useEffect(() => {
     if (!typedRef.current) return;
@@ -28,9 +31,8 @@ const Home = () => {
 
   return (
     <div className="container home" id="home">
-      
       <div className="left" data-aos="fade-up-right" data-aos-duration="1000">
-        <h1 ref={typedRef}></h1>
+        <h1 ref={typedRef}>Welcome to my Portfolio</h1>
 
         <a
           href={Resume}
@@ -50,7 +52,6 @@ const Home = () => {
           />
         </div>
       </div>
-
     </div>
   );
 };

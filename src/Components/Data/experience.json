@@ -1,44 +1,43 @@
 [
   {
-    "id":1,
-    "role": "Frontend Developer",
-    "organisation": "Wipro Limited",
-    "startDate": "May 2022",
-    "endDate": "March 2024",
-    "location": "Hyderabad, Inida",
-    "imgSrc": "company/Wipro logo.png",
-    "client": "Cascade- Apple Inc",
+    "id": 1,
+    "role": "Software Engineer",
+    "organisation": "AdroitOne Consulting",
+    "startDate": "August 2024",
+    "endDate": "Present",
+    "location": "Remote, India",
+    "imgSrc": "company/AdroitOne.png",
     "responsibilities": [
-        {
-          "description": "Designed and developed reusable UI components using ReactJS and modern front-end development best practices."
-        },
-        {
-          "description": "Architected an advanced Redux implementation that streamlined application data flow, improving code maintainability.The new system is now used by 15 developers and has enhanced deployment efficiency by 25%."
-        },
-        {
-          "description": "Integrated APIs for seamless data exchange, enabling the creation of dynamic and interactive user interfaces."
-        },
-        {
-          "description": "Collaborated with cross-functional teams to deliver high-quality products on time, demonstrating strong communication and problem-solving skills."
-        },
-        {
-          "description": "Maintained a strong understanding of modern front-end development trends and technologies, including responsive design and accessibility. Worked with popular libraries and tools such as React Router, Webpack, and Babel to optimize application performance and development workflow."
-        },
-        {
-          "description": "Developed and maintained modular, reusable, and scalable code bases using ReactJS, ensuring easy maintenance and updates. Utilized React Hooks to manage state and side effects in functional components, improving code readability and maintainability."
-        }
-      ]
+      {
+        "description": "Diagnosed and resolved technical, operational, system, and process issues via phone and email, utilizing problem-solving skills and Amazon's policies to ensure fair and satisfactory outcomes."
+      },
+      {
+        "description": "Developed a cross-platform mobile app using React Native and Expo, delivering a smooth and consistent user experience across Android."
+      },
+      {
+        "description": "Integrated Stripe Terminal SDK to enable secure in-person payments, managing real-time transaction flows, error handling, and user feedback."
+      },
+      {
+        "description": "Built reusable, scalable UI components in TypeScript, following best practices in modular design and state management."
+      },
+      {
+        "description": "Implemented API-driven session timeout and idle detection logic, Improving security and user control."
+      },
+      {
+        "description": "Optimized app performance by reducing unnecessary re-renders, improving load times, and handling offline scenarios using Async Storage and network detection. "
+      }
+    ]
   },
 
   {
-    "id":2,
+    "id": 2,
     "role": "Selling Partner Associate",
     "organisation": "Amazon Development Centre",
     "startDate": "March 2024",
     "endDate": "July 2024",
     "location": "Remote, India",
     "imgSrc": "company/Amazon.png",
-    "responsibilities":[
+    "responsibilities": [
       {
         "description": "Diagnosed and resolved technical, operational, system, and process issues via phone and email, utilizing problem-solving skills and Amazon's policies to ensure fair and satisfactory outcomes."
       },
@@ -59,32 +58,34 @@
       }
     ]
   },
+
   {
-    "id":3,
-    "role": "Software Engineer",
-    "organisation": "Ayat Solutions LLC",
-    "startDate": "February 2025",
-    "endDate": "Present",
-    "location": "Remote, India",
-    "imgSrc": "company/Ayat-solutions.jpg",
-    "responsibilities":[
-       {
-        "description": "Diagnosed and resolved technical, operational, system, and process issues via phone and email, utilizing problem-solving skills and Amazon's policies to ensure fair and satisfactory outcomes."
+    "id": 3,
+    "role": "Frontend Developer",
+    "organisation": "Wipro Limited",
+    "startDate": "May 2022",
+    "endDate": "March 2024",
+    "location": "Hyderabad, Inida",
+    "imgSrc": "company/Wipro logo.png",
+    "client": "Cascade- Apple Inc",
+    "responsibilities": [
+      {
+        "description": "Designed and developed reusable UI components using ReactJS and modern front-end development best practices."
       },
       {
-        "description": "Developed a cross-platform mobile app using React Native and Expo, delivering a smooth and consistent user experience across Android."
+        "description": "Architected an advanced Redux implementation that streamlined application data flow, improving code maintainability.The new system is now used by 15 developers and has enhanced deployment efficiency by 25%."
       },
       {
-        "description": "Integrated Stripe Terminal SDK to enable secure in-person payments, managing real-time transaction flows, error handling, and user feedback."
+        "description": "Integrated APIs for seamless data exchange, enabling the creation of dynamic and interactive user interfaces."
       },
       {
-        "description": "Built reusable, scalable UI components in TypeScript, following best practices in modular design and state management."
+        "description": "Collaborated with cross-functional teams to deliver high-quality products on time, demonstrating strong communication and problem-solving skills."
       },
       {
-        "description": "Implemented API-driven session timeout and idle detection logic, Improving security and user control."
+        "description": "Maintained a strong understanding of modern front-end development trends and technologies, including responsive design and accessibility. Worked with popular libraries and tools such as React Router, Webpack, and Babel to optimize application performance and development workflow."
       },
       {
-        "description": "Optimized app performance by reducing unnecessary re-renders, improving load times, and handling offline scenarios using Async Storage and network detection. "
+        "description": "Developed and maintained modular, reusable, and scalable code bases using ReactJS, ensuring easy maintenance and updates. Utilized React Hooks to manage state and side effects in functional components, improving code readability and maintainability."
       }
     ]
   }
